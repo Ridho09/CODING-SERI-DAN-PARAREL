@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+
+float hambatanPararel (float R1 , float R2 , float R3){
+    return 1/R1 + 1/R2 + 1/R3;
+}
+int main (){
+    cout << "hasil hambatan pararel adalah" << endl;
+    cout << hambatanPararel(30 , 25 , 50);
+}
